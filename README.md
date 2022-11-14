@@ -1,6 +1,6 @@
 # HUB-75 boards
 
-The HUB-75 boards is a collection of break-out boards (BOBs) for HUB-75 connnectors found on re-purposed FPGA cards such as the 5A-75B and 5A-75E. These cards can be picked up for 10~20 dollars from China and form an ideal basis for tinkering with FPGAs. Based on these cheap FPGA's a project has been spraked, called Litex-CNC< which aims to repurpose these cards to a cheap CNC controller. CNC-machines normally have field power which is 12~24V and thus the FPGA cannot direclty be connected to the components of the machine. Therefore a set of break-out boards have been developed for GPIO inputs/outputs, stepgen, encoders, etc.
+The HUB-75 boards is a collection of break-out boards (BOBs) for HUB-75 connnectors found on re-purposed FPGA cards such as the 5A-75B and 5A-75E. These cards can be picked up for 10\~20 dollars from China and form an ideal basis for tinkering with FPGAs. Based on these cheap FPGA's a project has been spraked, called Litex-CNC, which aims to repurpose these cards to a cheap CNC controller. CNC-machines normally have field power which is 12\~24V and thus the FPGA cannot direclty be connected to the components of the machine. Therefore a set of break-out boards have been developed for GPIO inputs/outputs, stepgen, encoders, etc.
 
 ## Design philosophy
 > Why not a hat one might ask? This project offers more flexibility. By combining different break-out can be combined to suit the machine that is being built. A hat also comes with a larger risk in design errors; smaller boards are easier to design, produce and check.
