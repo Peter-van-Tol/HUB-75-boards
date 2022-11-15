@@ -38,8 +38,23 @@ The table below shows the BOBs which are currently available in this repository.
 TODO: work-in-pogress
 
 ## Connecting the BOBs to your FPGA
+On both the 5A-75B and the 5A-75E the `74HC245T` buffers are hard-wired as outputs. To be able to use the HUB-75 boards which require an input (as seen from the FPGA) some modifications on the board are required. Of both boards different versiosn exist, so the components can be at a different location on your board. Below are the locations of the buffer on a 5A-75B V6.1 (front) and 5A-75E V6.0 (back).
 
-TODO: work-in-progress
+![5A-75B V6.1](images/cl-5a-75b-v61-front-annotated.jpg)
+
+![5A-75E V6.0](images/cl-5a-75e-v60-back.jpg)
+
+Each buffer has 8 channels, while every HUB-75 connector has 6 individual pins. When you replace a buffer you will cahnge the behavior of one HUB-75 connector and partly that of its neighbor. All HUB-75 boards assume that a connector is either fully configured as input or as output. Therefore it is recommended to change the buffers direclty adjacent to each other, so the minimum amount of available connectors (partly input/ouput) are wasted.
+
+The following changes have to be made to the buffers:
+* De-solder the `74HC245T` buffer, this buffer cannot be re-used because its pins are not 5 Volt tolerant when `Vcc` is 3.3 Volt.
+* Cut the trace to the pin `Vcc` (pin 20) and wire it to a 3.3V source (for example the JTAG-header). If you don't do this, a buffer configure as input will put 5 Volts on the pins of the FPGA, which will definately fry that pin or the whole board.
+* Cut the trace to the pin `DIR` (pin 20) and wire it to a GND source to configure the buffer as input.
+* Replace the buffer with a buffer with 5V tolerant inputs, such as the `74LVC245`.
+
+After these modifications the board might look a like this (on this particular board a single buffer has been replace, as it is a test-board for LitexCNC).
+
+TODO: picture to be taken
 
 ## License <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 The boards in this repository are licensed unde Creative Commons BY-NC-SA. This means you are allowed to:
@@ -50,11 +65,3 @@ As long as:
 * **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 * **NonCommercial** — You may not use the material for  commercial purposes. Of course you can use the machine you created or modified using these boards for commercial purposes. 
 * **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the  same license  as the original.
-
-
-
-
-
-
-
-
