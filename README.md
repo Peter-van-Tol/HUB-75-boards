@@ -41,8 +41,15 @@ TODO: work-in-pogress
 
 TODO: work-in-progress
 
-## License
-The boards in this repository are licensed unde Creative Commons BY-NC-SA.
+## License <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+The boards in this repository are licensed unde Creative Commons BY-NC-SA. This means you are allowed to:
+* **Share** — copy and redistribute the material in any medium or format
+* **Adapt** — remix, transform, and build upon the material
+
+As long as:
+* **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* **NonCommercial** — You may not use the material for  commercial purposes. Of course you can use the machine you created or modified using these boards for commercial purposes. 
+* **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the  same license  as the original.
 
 
 
