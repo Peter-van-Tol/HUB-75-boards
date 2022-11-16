@@ -4237,13 +4237,13 @@
 
   (footprint "LOGO" (layer "B.Cu")
     (tedit 0) (tstamp 9b3192ea-dfad-489e-b027-2f544de25025)
-    (at 121.158 54.864 180)
+    (at 131.572 64.262 90)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
+    (fp_text reference "G***" (at 0 0 90) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp b4210a41-4e09-4e3a-b614-94dfb4f27516)
     )
-    (fp_text value "LOGO" (at 0.75 0) (layer "B.SilkS") hide
+    (fp_text value "LOGO" (at 0.75 0 90) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp 6aa3dde4-3f2c-49ad-8d5d-96161c5e708b)
     )
@@ -7447,6 +7447,9 @@
   )
 
   (gr_rect (start 51.054 50.546) (end 136.054 106.546) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp c65e4124-17b8-4188-8c53-c5009ab2a8ad))
+  (gr_text "By Peter van Tol" (at 127.762 64.262 270) (layer "B.SilkS") (tstamp c680adfa-05ab-4e3b-a1f5-cad651745774)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_text "+5~24V\nFIELD\nPOWER" (at 130.522 80.694 90) (layer "F.SilkS") (tstamp 1aedeb8f-2971-4a80-b6a2-0456e6e1cc12)
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
@@ -42392,6 +42395,12 @@
         (xy 88.262296 71.521117)
         (xy 135.91765 71.388741)
       )
+    )
+  )
+  (group "" (id 9a6c9f54-b9ec-4497-a7bb-ddbac72eb8a6)
+    (members
+      9b3192ea-dfad-489e-b027-2f544de25025
+      c680adfa-05ab-4e3b-a1f5-cad651745774
     )
   )
 )
