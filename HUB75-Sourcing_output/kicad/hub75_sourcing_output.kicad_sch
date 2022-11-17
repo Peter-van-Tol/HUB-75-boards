@@ -2082,41 +2082,41 @@
     (path "/0be1527b-c337-4d05-9af1-4ecaa2fb462c"
       (reference "R37") (unit 1) (value "10K") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
     )
-    (path "/af8f1dfd-4712-4978-9db1-fbab7159693f/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/6b06ee6c-43d0-46ea-805d-1eaf19e0c0d6/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/b97ce019-f40c-494d-a8f2-c1e1e7770eda/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/6b06ee6c-43d0-46ea-805d-1eaf19e0c0d6/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/a07fb6ac-465b-4261-9707-bed709ee7e00/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/4a805342-0b43-48e9-8386-b9afd15cb415/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+    (path "/7134724f-277a-4c58-bbec-7ceaf30b9ed0/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R38") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/7134724f-277a-4c58-bbec-7ceaf30b9ed0/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/af8f1dfd-4712-4978-9db1-fbab7159693f/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/a07fb6ac-465b-4261-9707-bed709ee7e00/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/7134724f-277a-4c58-bbec-7ceaf30b9ed0/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R39") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/b97ce019-f40c-494d-a8f2-c1e1e7770eda/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R40") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/b97ce019-f40c-494d-a8f2-c1e1e7770eda/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R41") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/6b06ee6c-43d0-46ea-805d-1eaf19e0c0d6/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R42") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/6b06ee6c-43d0-46ea-805d-1eaf19e0c0d6/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R43") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/4a805342-0b43-48e9-8386-b9afd15cb415/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R44") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/4a805342-0b43-48e9-8386-b9afd15cb415/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R45") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/af8f1dfd-4712-4978-9db1-fbab7159693f/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R46") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/af8f1dfd-4712-4978-9db1-fbab7159693f/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R47") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/a07fb6ac-465b-4261-9707-bed709ee7e00/73d50809-198d-421c-ba1f-67bbf2431c0c/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R48") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/a07fb6ac-465b-4261-9707-bed709ee7e00/50b6f528-f58c-46fe-a228-7548d076c809/dc8c3685-7386-4495-b106-4383852f2abf"
+      (reference "R49") (unit 1) (value "R") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/7134724f-277a-4c58-bbec-7ceaf30b9ed0/efa18901-dd65-4597-9399-7e85f1015b89"
       (reference "U1") (unit 1) (value "LTV-827") (footprint "Package_DIP:DIP-8_W7.62mm")
