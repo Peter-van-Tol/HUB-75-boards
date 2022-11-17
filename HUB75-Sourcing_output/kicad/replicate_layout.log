@@ -1,0 +1,83 @@
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 312:Plugin executed on: 'win32'
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 313:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 314:KiCad build version: (6.0.1)
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 315:Plugin version: 1.2.2
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 316:Frame repr: <wx._core.Frame object at 0x0000029AECC2A5E0>
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 340:Preparing replicator with U16 as a reference
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 364:source anchor footprint is 'U16'
+Located on: ['opto_coupler_channel5']
+With filenames: ['opto_coupler_channel.kicad_sch']
+With sheet_id:['opto_coupler_channel5']
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 371:Corresponding footprints are 
+[('U7', ['opto_coupler_channel2']), ('U1', ['opto_coupler_channel']), ('U13', ['opto_coupler_channel4']), ('U16', ['opto_coupler_channel5']), ('U4', ['opto_coupler_channel1']), ('U10', ['opto_coupler_channel3'])]
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 383:Showing dialog
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'opto_coupler_channel5', file:'opto_coupler_channel.kicad_sch'
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['opto_coupler_channel'], ['opto_coupler_channel1'], ['opto_coupler_channel2'], ['opto_coupler_channel3'], ['opto_coupler_channel4']]
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['opto_coupler_channel5']
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 389:Toolbar position: wx.Point(1699, 117)
+11-17 21:06:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Dialog position: wx.Point(1335, 117)
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'opto_coupler_channel5', file:'opto_coupler_channel.kicad_sch'
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['opto_coupler_channel'], ['opto_coupler_channel1'], ['opto_coupler_channel2'], ['opto_coupler_channel3'], ['opto_coupler_channel4']]
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 170:Replicating layout
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 154:Starting replication of sheets: [['opto_coupler_channel'], ['opto_coupler_channel1'], ['opto_coupler_channel2'], ['opto_coupler_channel3'], ['opto_coupler_channel4']]
+on level: ['opto_coupler_channel5']
+with tracks=True, zone=True, text=True, text=True, containing=True, remove=False, locked footprints=False, by_group=False
+11-17 21:06:34 root 252:updating GUI message: 'Preparing for replication'
+11-17 21:06:34 root 257:updating GUI with: 0
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting the list of source footprints
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Getting the list of all the remaining footprints
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Getting nets local to source footprints
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 247:Getting source bounding box
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source tracks
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source zones
+11-17 21:06:34 root 257:updating GUI with: 62
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source text items
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting source drawing items
+11-17 21:06:34 root 252:updating GUI message: 'Replicating footprints'
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 678:Replicating footprints
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['opto_coupler_channel']
+11-17 21:06:34 root 257:updating GUI with: 4
+11-17 21:06:34 root 257:updating GUI with: 18
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['opto_coupler_channel1']
+11-17 21:06:34 root 257:updating GUI with: 36
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['opto_coupler_channel2']
+11-17 21:06:34 root 257:updating GUI with: 55
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['opto_coupler_channel3']
+11-17 21:06:34 root 257:updating GUI with: 71
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['opto_coupler_channel4']
+11-17 21:06:34 root 257:updating GUI with: 85
+11-17 21:06:34 root 252:updating GUI message: 'Replicating tracks'
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating tracks
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['opto_coupler_channel']
+11-17 21:06:34 root 257:updating GUI with: 0
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['opto_coupler_channel1']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['opto_coupler_channel2']
+11-17 21:06:34 root 257:updating GUI with: 40
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['opto_coupler_channel3']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['opto_coupler_channel4']
+11-17 21:06:34 root 257:updating GUI with: 80
+11-17 21:06:34 root 252:updating GUI message: 'Replicating zones'
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 909:Replicating zones
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['opto_coupler_channel']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['opto_coupler_channel1']
+11-17 21:06:34 root 257:updating GUI with: 40
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['opto_coupler_channel2']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['opto_coupler_channel3']
+11-17 21:06:34 root 257:updating GUI with: 80
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['opto_coupler_channel4']
+11-17 21:06:34 root 252:updating GUI message: 'Replicating text'
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Replicating text
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['opto_coupler_channel']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['opto_coupler_channel1']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['opto_coupler_channel2']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['opto_coupler_channel3']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['opto_coupler_channel4']
+11-17 21:06:34 root 252:updating GUI message: 'Replicating drawings'
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating drawings
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['opto_coupler_channel']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['opto_coupler_channel1']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['opto_coupler_channel2']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['opto_coupler_channel3']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['opto_coupler_channel4']
+11-17 21:06:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 190:Replication complete
