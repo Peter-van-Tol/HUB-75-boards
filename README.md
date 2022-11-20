@@ -12,7 +12,7 @@ The outputs of the BOBs will be on the bottom edge (long side). Field power and 
 The smalles trace and spacing is 0.2 mm. These boards are designed to be ordered from an online PCB manufacturer. Some desktop milling machines might have the accuracy to create these traces, so you might give it a try when you are feeling lucky. The smallest holes (vias) are 0.3 mm in size.
 
 All components are selected to be hand-solderable. This means that the following minimum sizes SMD components will be used:
-- resistors, LED's, capacitors: 2010
+- resistors, LED's, capacitors: SMD-1206
 - diodes: SOD-123
 - FET, transistors: SOT-23
 
@@ -30,12 +30,16 @@ Each connector has 6 individual pins (1, 2, 3, 5, 6, and 7) and 8 shared pins (8
 | CLK       | 13    | 14    | STB       |
 | OE        | 15    | 16    | *GND*     |
 
-Each HUB-75 connector will use the individual pins and in special cases one of the shared pins. In the design it should be tkaen into account that boards which uses the same shared pins might be mutual exclusive when the functions are different (different types of stepgen BOBs can off course be combined.
+Each HUB-75 connector will use the individual pins and in special cases one of the shared pins. In the design it should be taken into account that boards which uses the same shared pins might be mutual exclusive when the functions are different (different types of stepgen BOBs can off course be combined.
 
 ## Available BOBs
-The table below shows the BOBs which are currently available in this repository. 
+The table below shows the BOBs which are currently available in this repository, along with their status.
 
-TODO: work-in-pogress
+| Category  | Name                                                     | Description                                                     | HUB-75    | Status            |
+|-----------|----------------------------------------------------------|-----------------------------------------------------------------|-----------|-------------------|
+| stepgen   | [HUB75-Differential_stepgen](HUB75-Differential_stepgen) | 3 differential stepgen channels, frequency up to 400 kHz        | 2 + 0.5   | Prototype ordered | 
+| GPIO-out  | [HUB75-Sourcing_output](HUB75-Sourcing_output)           | 12 channel sourcing output (<1 kHz, 4 A per channel, 4 A total) | 2         | Prototype ordered | 
+| GPIO-in   | [HUB75-Sinking_input](HUB75-Sinking_input)               | 12 channel sinking input (< 1 kHz)                              | 2         | Untested          |
 
 ## Connecting the BOBs to your FPGA
 On both the 5A-75B and the 5A-75E the `74HC245T` buffers are hard-wired as outputs. To be able to use the HUB-75 boards which require an input (as seen from the FPGA) some modifications on the board are required. Of both boards different versiosn exist, so the components can be at a different location on your board. Below are the locations of the buffer on a 5A-75B V6.1 (front) and 5A-75E V6.0 (back).
