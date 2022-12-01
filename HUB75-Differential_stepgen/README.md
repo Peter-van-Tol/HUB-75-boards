@@ -112,7 +112,7 @@ When you order with Mouser or antohter supplier, please share a list here.
 | 74HC86         | SO-16     | Quad XOR-gates                     |           | 2      | € 0.16  |
 | SMD 1/4W270    | SMD 1206  | Resistor, 270 Ohm                  |           | 6      | € 0.03  |
 | SMD 1/4W 10K   | SMD 1206  | Resistor, 10 kOhm                  |           | 12     | € 0.03  |
-| X7R-G1206 100N | SMD 1206  | Capacittor 100 nF                  |           | 12     | € 0.  |
+| X7R-G1206 100N | SMD 1206  | Capacittor 100 nF                  |           | 12     | € 0.22  |   
 | DIP 3P         | DIP-6     | DIP-switch, 3P                     |           | 2      | € 0.33  |
 | DG250 3,5-2    | -         | Screw/spring terminal 2.5 mm pitch |           | 1      | € 0.22  |
 | BOX 2X8        | -         | Box header 2x8, 2.54 mm pitch      |           | 3      | € 0.16  |
@@ -127,3 +127,14 @@ When you order with Mouser or antohter supplier, please share a list here.
 This board does not have any known issues yet.
 
 If you find any issue, please file a bug using GitHub.
+
+# Version history
+
+**1.1**
+* Changed HUB75 connectors from pin headers to IDC connectors (shrouded). Moved several components to make space for the larger footprint
+* Wired alarm 1-3 to pin 1-3 of J3 (was pin 3-5-7, which was not logical for config). Wired alarm 4-6 to pin 5-7 of J3 (NOTE: pin 4 is GND). Version 1.0 boards cannot be connected to version 1.1 boards due to this change.
+* Added labels to clarify the function of the DIP-switches and solder jumpers. 
+
+**1.0**
+* Initial version for proto-type.
+
