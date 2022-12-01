@@ -107,15 +107,16 @@ The table below gives the bill of materials used for this BOB and an indication 
 When you order with Mouser or antohter supplier, please share a list here.
 
 
-| Part. number | Package   | Description                        | Datasheet | Amount | Price*  |
-|--------------|-----------|------------------------------------|-----------|--------|---------|
-| 74HC85       | SO-16     | Quad XOR-gates                     |           | 2      | € 0.26  |
-| 270          | SMD 1206  | Resistor, 270 Ohm                  |           | 6      | € 0.03  |
-| 10K          | SMD 1206  | Resistor, 10 kOhm                  |           | 12     | € 0.03  |
-| DIP 3P       | DIP-6     | DIP-switch, 3P                     |           | 2      | € 0.33  |
-| DG250 3,5-2  | -         | Screw/spring terminal 2.5 mm pitch |           | 1      | € 0.22  |
-| BOX 2X8      | -         | Box header 2x8, 2.54 mm pitch      |           | 3      | € 0.16  |
-| CAT5         | -         | RJ-45 Bus with LED**               |           | 3      | € 1.07  |
+| Part. number   | Package   | Description                        | Datasheet | Amount | Price*  |
+|----------------|-----------|------------------------------------|-----------|--------|---------|
+| 74HC86         | SO-16     | Quad XOR-gates                     |           | 2      | € 0.16  |
+| SMD 1/4W270    | SMD 1206  | Resistor, 270 Ohm                  |           | 6      | € 0.03  |
+| SMD 1/4W 10K   | SMD 1206  | Resistor, 10 kOhm                  |           | 12     | € 0.03  |
+| X7R-G1206 100N | SMD 1206  | Capacittor 100 nF                  |           | 12     | € 0.  |
+| DIP 3P         | DIP-6     | DIP-switch, 3P                     |           | 2      | € 0.33  |
+| DG250 3,5-2    | -         | Screw/spring terminal 2.5 mm pitch |           | 1      | € 0.22  |
+| BOX 2X8        | -         | Box header 2x8, 2.54 mm pitch      |           | 3      | € 0.16  |
+| CAT5           | -         | RJ-45 Bus with LED**               |           | 3      | € 1.07  |
 
 **NOTES**: 
 1. The price is based on availability in the Netherlands with a single shop for all parts. Parts might be sourced cheaper depending on your location, available sources and the time you want to wait before receiving the components.
