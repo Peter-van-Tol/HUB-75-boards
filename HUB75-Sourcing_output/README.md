@@ -114,3 +114,13 @@ When you order with Mouser or antohter supplier, please share a list here.
 - Current mirror is to be tested whether it works reliable.
 
 If you find more issues, please file a bug using GitHub.
+
+# Version history
+
+**1.1**
+* Corrected P-channel MOSFET's, the source and drain where switched, which prevented the V1.0 board from working. 
+* Changed pin-headers to IDC-headers. Rerouted because of more space required by the IDC-header
+* Corrected footprint of reverse current protection. Added jumper to be able to by-pass this circuit. 
+
+**1.0**
+* Initial version for proto-type.
