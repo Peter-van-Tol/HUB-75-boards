@@ -36,9 +36,9 @@ Each HUB-75 connector will use the individual pins and in special cases one of t
 The table below shows the BOBs which are currently available in this repository, along with their status.
 
 | Category  | Name                                                     | Description                                                     | HUB-75    | Status            |
-|-----------|----------------------------------------------------------|-----------------------------------------------------------------|-----------|-------------------|
-| stepgen   | [HUB75-Differential_stepgen](HUB75-Differential_stepgen) | 3 differential stepgen channels, frequency up to 400 kHz        | 2 + 0.5   | Prototype ordered | 
-| GPIO-out  | [HUB75-Sourcing_output](HUB75-Sourcing_output)           | 12 channel sourcing output (<1 kHz, 4 A per channel, 4 A total) | 2         | Prototype ordered | 
+|-----------|----------------------------------------------------------|-----------------------------------------------------------------|-----------|---------------------|
+| stepgen   | [HUB75-Differential_stepgen](HUB75-Differential_stepgen) | 3 differential stepgen channels, frequency up to 400 kHz        | 2 + 0.5   | Prototype-2 ordered | 
+| GPIO-out  | [HUB75-Sourcing_output](HUB75-Sourcing_output)           | 12 channel sourcing output (<1 kHz, 4 A per channel, 4 A total) | 2         | Prototype-2 ordered | 
 | GPIO-in   | [HUB75-Sinking_input](HUB75-Sinking_input)               | 12 channel sinking input (< 1 kHz)                              | 2         | Untested          |
 
 ## Connecting the BOBs to your FPGA
