@@ -1,9 +1,10 @@
 Designator,Footprint,Quantity,Value,LCSC Part #
 C1,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,15nF,
-D1,D_SOD-123,1,D_Zener,
+D1,D_SOT-23_ANK,1,D_Zener,
 "D10, D11, D12, D13, D2, D3, D4, D5, D6, D7, D8, D9",LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,12,LED_Small,
-"HUB75-1, HUB75-2",PinHeader_2x08_P2.54mm_Vertical,2,Conn_02x08_Odd_Even,
+"HUB75-1, HUB75-2",IDC-Header_2x08_P2.54mm_Vertical,2,Conn_02x08_Odd_Even,
 "J1, J10, J11, J12, J2, J3, J4, J5, J6, J7, J8, J9",JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,12,Conn_01x03_Male,
+JP1,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,1,Jumper_2_Open,
 "PWR1, PWR2","TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",2,Screw_Terminal_01x02,
 Q1,SOT-23,1,AO3401A,
 "Q10, Q11, Q12, Q13, Q14, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9",SOT-23,13,2N7002,
